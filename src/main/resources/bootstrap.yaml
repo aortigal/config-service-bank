@@ -1,0 +1,19 @@
+server:
+  port: 8094
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/aortigal/config-data-bank.git
+          #searchPaths: config-data
+          username: aortigal
+          password: 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
+  security:
+    user:
+      name: root
+      password: l$14V12GOKEf
+  
